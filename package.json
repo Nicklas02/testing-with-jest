@@ -35,6 +35,7 @@
     "find-up": "^4.1.0",
     "flat": "^5.0.2",
     "function-bind": "^1.1.2",
+    "geckodriver": "^5.0.0",
     "glob-parent": "^6.0.2",
     "glob-to-regexp": "^0.4.1",
     "graceful-fs": "^4.2.11",
@@ -77,6 +78,7 @@
     "resolve-from": "^5.0.0",
     "safe-buffer": "^5.2.1",
     "schema-utils": "^4.3.2",
+    "selenium-webdriver": "^4.32.0",
     "serialize-javascript": "^6.0.2",
     "shallow-clone": "^3.0.1",
     "shebang-command": "^2.0.0",
@@ -113,6 +115,7 @@
   "homepage": "https://github.com/Nicklas02/testing-with-jest#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^13.0.0",
+    "jest": "^29.7.0",
     "webpack": "^5.99.8",
     "webpack-cli": "^6.0.1"
   }
