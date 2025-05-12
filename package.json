@@ -14,5 +14,8 @@
   "repository": {
     "type": "git",
     "url": "A Jest + npm lab session"
+  },
+  "dependencies": {
+    "underscore": "^1.13.7"
   }
 }
