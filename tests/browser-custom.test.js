@@ -28,5 +28,5 @@ await peekButton.click();
 
 const topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
 
-expect(topOfStack).toBe("Fail");
+expect(topOfStack).toBe("Nicke");
 });
