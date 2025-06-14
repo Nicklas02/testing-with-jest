@@ -34,3 +34,17 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+it('Should show the element on top of the stack after pushing', async () => {
+    const pushButton = await driver.findElement(By.id('push'));
+    await pushButton.click();
+    const alert = await driver.switchTo().alert();
+    await alert.sendKeys("Nicke");
+    await alert.accept();
+    
+    const peekButton = await driver.findElement(By.id('peek'));
+    await peekButton.click();
+    
+    const topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
+    
+    expect(topOfStack).toBe("Nicke");
+    });
